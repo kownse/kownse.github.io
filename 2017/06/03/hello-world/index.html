@@ -6,19 +6,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="null">
+    <meta name="description" content="云飞的个人博客">
     <meta name="keyword" content="undefined">
     <meta name="theme-color" content="#600090">
     <meta name="msapplication-navbutton-color" content="#600090">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
     <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
-    <link rel="alternate" type="application/atom+xml" title="Kownse&#39;s Blog" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="Kownse" href="/atom.xml">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        Hello World｜undefined
+        终于找到了写博客的正确姿势｜undefined
         
     </title>
 
@@ -56,7 +56,7 @@
             </button>
             <a class="navbar-brand animated pulse" href="/">
                 <span class="brand-logo">
-                    Kownse&#39;s Blog
+                    Kownse
                 </span>
                 's Blog
             </a>
@@ -120,13 +120,13 @@
 
 
 <img class="wechat-title-img"
-     src="">
+     src="/img/post-default.jpg">
 
 
 <style>
     
     header.intro-header {
-        background-image: url('')
+        background-image: url('/img/post-default.jpg')
     }
 
     
@@ -137,7 +137,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                 <div class="post-heading">
-                    <h1>Hello World</h1>
+                    <h1>终于找到了写博客的正确姿势</h1>
                     
                     <span class="meta">
                          作者 Kownse Duan
@@ -154,7 +154,7 @@
     </div>
     <div class="post-title-haojen">
         <span>
-            Hello World
+            终于找到了写博客的正确姿势
         </span>
     </div>
 </header>
@@ -165,15 +165,46 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+                <p><img src="/2017/06/03/hello-world/cat.jpg" alt="logo"></p>
+<h2 id="走了多少弯路"><a href="#走了多少弯路" class="headerlink" title="走了多少弯路"></a>走了多少弯路</h2><p>之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：</p>
+<blockquote>
+<ul>
+<li>树莓派这个<strong>性能</strong>非常有限的卡片电脑，非常适合做性能测试。因为稍微一点<strong>过分消耗</strong>就会卡顿。</li>
+<li>树莓派上，<strong>静态网页的访问速度是nodejs动态网页的十倍</strong>。所以尽量生成静态html。为此还封装了一套接口。</li>
+<li>静态内容，比如h5游戏，放在百度云上，可以利用其自动的CDN加快访问速度，同时减轻Natapp的流量消耗。</li>
+<li>从头用html+css写了一套网站，虽然还是用到了模板库(pug)。但是今天发现<strong>markdown才是王道</strong>。</li>
+</ul>
+</blockquote>
+<p>现在发现，其实这样做更简单：</p>
+<ul>
+<li>[x] 用hexo生成静态网页，然后发布到github上。</li>
+<li>[ ] h5游戏也放在github上。github不但在国内访问稳定，到了国外一样稳定。</li>
+<li>[ ] 树莓派上的服务器只需要做成REST API服务就行了。</li>
+<li>[ ] h5游戏里应该用REST API登陆。</li>
+</ul>
+<h2 id="行为方式总结"><a href="#行为方式总结" class="headerlink" title="行为方式总结"></a>行为方式总结</h2><p>总结一下过去1个多月尝试的行为方式，其实就是边干边学。因为没有经验，也没有人可以传授经验，一切都是自己摸索。而我自己行动力又比较强，于是常常陷入<strong>局部最优解</strong>。通俗的说，就是井底之蛙。</p>
+<div id="flowchart-0" class="flow-chart"></div>
+
+
+<p>希望上面那种工作方式，能够随着经验的不断累计，变成<strong>先思考，再行动</strong>：</p>
+<p><div id="flowchart-1" class="flow-chart"></div><br>上面的图比前一个少了许多<strong>原地打转</strong>和<strong>返工</strong>。</p>
+<h2 id="公司里加班多了就这样"><a href="#公司里加班多了就这样" class="headerlink" title="公司里加班多了就这样"></a>公司里加班多了就这样</h2><p>其实在公司里的工作，我已经达到了不需要学习也能自然而然地完成工作。<br>所以现在性价比最高的还是在公司的工作。<br>但是我不能放弃别的路子，那不只是放弃<strong>机会</strong>，还是放弃<strong>希望</strong>。</p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 构思
+op1=>operation: 学习资料
+op2=>operation: 动手开干
+op3=>operation: 补充资料
+cond=>condition: 感觉能重构?
+e=>end
+
+st->op1->op2->cond
+cond(yes, right)->op3(right)->op2
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: 构思
+op1=>operation: 思考
+op2=>operation: 学习充电
+op3=>operation: 动手干活
+e=>end
+
+st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script></p>
 
                 <hr>
                 
@@ -194,7 +225,7 @@
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#走了多少弯路"><span class="toc-text">走了多少弯路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#行为方式总结"><span class="toc-text">行为方式总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#公司里加班多了就这样"><span class="toc-text">公司里加班多了就这样</span></a></li></ol>
                 </div>
             </div>
         </div>
@@ -241,12 +272,21 @@
                 
 
                 
+                    <li>
+                        <a target="_blank"  href="https://github.com/kownse">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
 
                 
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; Kownse&#39;s Blog 2017
+                    Copyright &copy; Kownse 2017
                     <br>
                     <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
                     <br>
