@@ -14,14 +14,11 @@
 <meta name="author" content="Kownse Duan" />
 
 
-    
-    
-
 
 <meta name="description" content="云飞的个人博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kownse">
-<meta property="og:url" content="http://kownse.github.io/index.html">
+<meta property="og:url" content="http://kownse.github.io/archives/2017/06/index.html">
 <meta property="og:site_name" content="Kownse">
 <meta property="og:description" content="云飞的个人博客">
 <meta name="twitter:card" content="summary">
@@ -54,13 +51,11 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <style> .article { opacity: 0;} </style>
-
 
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Kownse</title>
+<title>Archives: 2017/6 | Kownse</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -69,9 +64,9 @@
     var yiliaConfig = {
         fancybox: true,
         animate: true,
-        isHome: true,
+        isHome: false,
         isPost: false,
-        isArchive: false,
+        isArchive: true,
         isTag: false,
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
@@ -268,104 +263,50 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2017/06/03/hello-world/" class="article-date">
-      <time datetime="2017-06-03T15:34:36.789Z" itemprop="datePublished">2017-06-03</time>
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+          <div class="article-meta">
+              <a href="/2017/06/03/hello-world/" class="archive-article-date">
+      <time datetime="2017-06-03T15:34:36.789Z" itemprop="datePublished">06-03</time>
 </a>
 
 
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
+        </div>
+         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/06/03/hello-world/">终于找到了写博客的正确姿势</a>
+      <a class="archive-article-title" href="/2017/06/03/hello-world/">终于找到了写博客的正确姿势</a>
     </h1>
   
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="article-info info-on-archive">
           
-        <p><img src="/2017/06/03/hello-world/cat.jpg" alt="logo"></p>
-<h2 id="走了多少弯路"><a href="#走了多少弯路" class="headerlink" title="走了多少弯路"></a>走了多少弯路</h2><p>之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：</p>
-<blockquote>
-<ul>
-<li>树莓派这个<strong>性能</strong>非常有限的卡片电脑，非常适合做性能测试。因为稍微一点<strong>过分消耗</strong>就会卡顿。</li>
-<li>树莓派上，<strong>静态网页的访问速度是nodejs动态网页的十倍</strong>。所以尽量生成静态html。为此还封装了一套接口。</li>
-<li>静态内容，比如h5游戏，放在百度云上，可以利用其自动的CDN加快访问速度，同时减轻Natapp的流量消耗。</li>
-<li>从头用html+css写了一套网站，虽然还是用到了模板库(pug)。但是今天发现<strong>markdown才是王道</strong>。</li>
-</ul>
-</blockquote>
-<p>现在发现，其实这样做更简单：</p>
-<blockquote>
-<ul>
-<li>用hexo生成静态网页，然后发布到github上。</li>
-<li>h5游戏也放在github上。github不但在国内访问稳定，到了国外一样稳定。</li>
-<li>树莓派上的服务器只需要做成REST API服务就行了。</li>
-<li>h5游戏里应该用REST API登陆。</li>
-</ul>
-</blockquote>
-<h2 id="行为方式总结"><a href="#行为方式总结" class="headerlink" title="行为方式总结"></a>行为方式总结</h2><p>总结一下过去1个多月尝试的行为方式，其实就是边干边学。因为没有经验，也没有人可以传授经验，一切都是自己摸索。而我自己行动力又比较强，于是常常陷入<strong>局部最优解</strong>。通俗的说，就是井底之蛙。</p>
-<div id="flowchart-0" class="flow-chart"></div>
 
-
-<p>希望上面那种工作方式，能够随着经验的不断累计，变成<strong>先思考，再行动</strong>：</p>
-<p><div id="flowchart-1" class="flow-chart"></div><br>上面的图比前一个少了许多<strong>原地打转</strong>和<strong>返工</strong>。</p>
-<h2 id="公司里加班多了就这样"><a href="#公司里加班多了就这样" class="headerlink" title="公司里加班多了就这样"></a>公司里加班多了就这样</h2><p>其实在公司里的工作，我已经达到了不需要学习也能自然而然地完成工作。<br>所以现在性价比最高的还是在公司的工作。<br>但是我不能放弃别的路子，那不只是放弃<strong>机会</strong>，还是放弃<strong>希望</strong>。</p>
-<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 构思
-op1=>operation: 学习资料
-op2=>operation: 动手开干
-op3=>operation: 补充资料
-cond=>condition: 感觉能重构?
-e=>end
-
-st->op1->op2->cond
-cond(yes, right)->op3(right)->op2
-cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: 构思
-op1=>operation: 思考
-op2=>operation: 学习充电
-op3=>operation: 动手干活
-e=>end
-
-st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
+          
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
-  
 </article>
-
-
-
-
-
-
-
-
-
   
   
+    </div></section>
+  
+
+    
+
 </div>
       <footer id="footer">
     <div class="outer">
