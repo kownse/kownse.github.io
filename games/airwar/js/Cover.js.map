@@ -1,1 +1,0 @@
-{"version":3,"file":"Cover.js","sourceRoot":"","sources":["../../src/Cover.ts"],"names":[],"mappings":";;;;;;;;;;AACA;IAAoB,yBAAU;IAC1B;eACI,iBAAO;IACX,CAAC;IAEM,iCAAiB,GAAxB,UAAyB,OAAc;QACnC,IAAI,CAAC,OAAO,CAAC,IAAI,GAAG,aAAa,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC,CAAC,GAAG,GAAG,CAAC;IACjE,CAAC;IACL,YAAC;AAAD,CAAC,AARD,CAAoB,EAAE,CAAC,OAAO,GAQ7B"}
