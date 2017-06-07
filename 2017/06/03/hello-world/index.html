@@ -6,17 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://kownse.github.io">
-  <title>Tag: 随笔 | Kownse</title>
+  <title>终于找到了写博客的正确姿势 | Kownse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="kownse的个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Kownse">
-<meta property="og:url" content="http://kownse.github.io/tags/随笔/index.html">
+  <meta name="description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
+<meta name="keywords" content="随笔">
+<meta property="og:type" content="article">
+<meta property="og:title" content="终于找到了写博客的正确姿势">
+<meta property="og:url" content="http://kownse.github.io/2017/06/03/hello-world/index.html">
 <meta property="og:site_name" content="Kownse">
-<meta property="og:description" content="kownse的个人博客">
+<meta property="og:description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
+<meta property="og:image" content="http://kownse.github.io/2017/06/03/hello-world/pi.jpg">
+<meta property="og:image" content="http://kownse.github.io/2017/06/03/hello-world/fashao.jpg">
+<meta property="og:updated_time" content="2017-06-07T07:29:51.952Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Kownse">
-<meta name="twitter:description" content="kownse的个人博客">
+<meta name="twitter:title" content="终于找到了写博客的正确姿势">
+<meta name="twitter:description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
+<meta name="twitter:image" content="http://kownse.github.io/2017/06/03/hello-world/pi.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Kownse" type="application/atom+xml">
   
@@ -138,36 +143,109 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/03/hello-world/" class="archive-article-date">
-  	<time datetime="2017-06-03T04:04:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-03</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/03/hello-world/">终于找到了写博客的正确姿势</a>
+    <h1 class="article-title" itemprop="name">
+      终于找到了写博客的正确姿势
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/06/03/hello-world/" class="archive-article-date">
+  	<time datetime="2017-06-03T04:04:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/2017/06/03/hello-world/pi.jpg" alt="logo"></p>
+<h1 id="走了多少弯路"><a href="#走了多少弯路" class="headerlink" title="走了多少弯路"></a>走了多少弯路</h1><p>之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：</p>
+<blockquote>
+<ul>
+<li>树莓派这个<strong>性能</strong>非常有限的卡片电脑，非常适合做性能测试。因为稍微一点<strong>过分消耗</strong>就会卡顿。<a id="more"></a></li>
+<li>树莓派上，<strong>静态网页的访问速度是nodejs动态网页的十倍</strong>。所以尽量生成静态html。为此还封装了一套接口。</li>
+<li>静态内容，比如h5游戏，放在百度云上，可以利用其自动的CDN加快访问速度，同时减轻Natapp的流量消耗。</li>
+<li>从头用html+css写了一套网站，虽然还是用到了模板库(pug)。但是今天发现<strong>markdown才是王道</strong>。</li>
+</ul>
+</blockquote>
+<p>现在发现，其实这样做更简单：</p>
+<blockquote>
+<ul>
+<li>用hexo生成静态网页，然后发布到github上。github不但在国外访问稳定，到了国内一样比较稳定。</li>
+<li><del>h5游戏也放在github上。</del>事实证明，实验后发现github.io似乎有跨域访问限制。尽管游戏服务器上已经添加了各种Access-Control-Allow-*字段，但是服务器还是不能收到消息。换回BAE立马就好了。</li>
+<li>树莓派上的服务器只需要做成REST API服务就行了。</li>
+<li>h5游戏里应该用REST API登陆。</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="行为方式总结"><a href="#行为方式总结" class="headerlink" title="行为方式总结"></a>行为方式总结</h1><p>总结一下过去1个多月尝试的行为方式，其实就是边干边学。因为没有经验，也没有人可以传授经验，一切都是自己摸索。而我自己行动力又比较强，于是常常陷入<strong>局部最优解</strong>。通俗的说，就是井底之蛙。</p>
+<div id="flowchart-0" class="flow-chart"></div>
+
+
+<p>希望上面那种工作方式，能够随着经验的不断累计，变成<strong>先思考，再行动</strong>：</p>
+<p><div id="flowchart-1" class="flow-chart"></div><br>上面的图比前一个少了许多<strong>原地打转</strong>和<strong>返工</strong>。</p>
+<hr>
+<h1 id="公司里加班多了就这样"><a href="#公司里加班多了就这样" class="headerlink" title="公司里加班多了就这样"></a>公司里加班多了就这样</h1><p>其实在公司里的工作，由于不断重复反复练习，已经不需要太多思考了。<br>所以现在性价比最高的还是在公司的工作。但是强度太大，搞得我经常生病。<br>我不能放弃别的路子，那不只是放弃机会，还是放弃希望。</p>
+<p>不然的话，就是经常生病，经常发烧。<br><img src="/2017/06/03/hello-world/fashao.jpg" alt="logo"><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 构思
+op1=>operation: 学习资料
+op2=>operation: 动手开干
+op3=>operation: 补充资料
+cond=>condition: 感觉能重构?
+e=>end
+
+st->op1->op2->cond
+cond(yes, right)->op3(right)->op2
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: 构思
+op1=>operation: 思考
+op2=>operation: 学习充电
+op3=>operation: 动手干活
+e=>end
+
+st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我鱼！喵！<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wechatpay.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -179,7 +257,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -192,17 +270,102 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://kownse.github.io/2017/06/03/hello-world/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2017/06/04/MENL-H5-Game/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          MELN H5游戏 开发路线图
+        
+      </div>
+    </a>
   
   
-    </div></section>
+</nav>
+
+
+
+
+
+  
+  
+  
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: "http://kownse.github.io/2017/06/03/hello-world/", 
+    sourceId: "hello-world",
+    productKey: "a7e0560709b1420697618d0bc4b2f315",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -225,9 +388,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
