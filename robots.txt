@@ -2,6 +2,6 @@
 #
 # To ban all spiders from the entire site uncomment the next two lines:
 User-agent: *
-Crawl-delay: 10
+Crawl-delay: 5
 
 Sitemap: http://kownse.github.io/sitemap.xml
