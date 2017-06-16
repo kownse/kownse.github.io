@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYFK2TSYBz0eNcHnp4YqE4Ts.woff2) format('woff2');
+  /*src: local('Shadows Into Light'), local('ShadowsIntoLight'), url('/fonts/ShadowsIntoLight.ttf');*/
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  padding: 50px;
+  font: 44px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #111111;
+  color: #EEEEEE;
+  /*background-image: url("/images/bg/diagmonds.jpg");
+  background-size: 260px 260px;
+  background-repeat: repeat;*/
+}
+
+div.game{
+  background: #000;
+  margin-bottom: 30px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Segoe Print', "Lucida Grande", Helvetica, Arial, sans-serif, cursive;
+  background: #444;
+  margin: 25px 0px 30px 0px;
+}
+
+h2{
+  font-family: 'Segoe Print', "Lucida Grande", Helvetica, Arial, sans-serif, cursive;
+  background: #333;
+  margin: 25px 0px 0px 0px;
+}
+
+p.hand{
+  text-indent: 1em;
+  font-family: 'Segoe Print', "Lucida Grande", Helvetica, Arial, sans-serif, cursive;
+}
+
+a {
+  color: #0095BB;
+}
+
+a:hover, a:active{
+  color: #11aaff;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:hover, a:active{
+  color: #11aaff;
+}
+
+nav ul{
+  list-style:none;
+  display: inline;
+  margin: 0px 12px 0px 12px;
+  padding: 0px;
+}
+
+nav li{
+  display: inline;
+}
+
+nav ul li a:link, nav ul li a:visited{
+  font-weight: bold;
+  /*display: block;*/
+  padding: 0px 5px 0px 5px;
+  background-color: #444;
+}
+
+hr{
+  color: #333333;
+}
+
+a.intro{
+  font-family: 'Segoe Print', "Lucida Grande", Helvetica, Arial, sans-serif, cursive;
+}
+
+p.intro{
+  font-size:40px;
+  font-style:italic;
+  font-family: 'Segoe Print', '楷体', "Lucida Grande", Helvetica, Arial, sans-serif, cursive;
+  color: #bbbbbb;
+  margin:5px 0px 40px 0px;
+}
+
+input{
+  font-size:40px;
+  height: 41px;
+}
+
+footer {
+  font-size : 30px;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+  /*padding-top: 30px;*/
+  background: #444;
+}
+
+tr.e{
+  background-color: #000000;
+}
+
+tr.d{
+  background-color: #222;
+}
