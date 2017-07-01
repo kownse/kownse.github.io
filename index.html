@@ -177,6 +177,86 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-pi64-upgrade" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/01/pi64-upgrade/">树莓派升级arm64 debian stretch小记</a>
+    </h1>
+  
+
+        
+        <a href="/2017/07/01/pi64-upgrade/" class="archive-article-date">
+  	<time datetime="2017-07-01T12:15:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-01</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>在树莓派上做了<a href="http://www.jianshu.com/p/b844caf18140" target="_blank" rel="external">爬虫</a>，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。<br>同时，debian 9 stretch发布，也想试试新系统。</p>
+<h2 id="资讯"><a href="#资讯" class="headerlink" title="资讯"></a>资讯</h2><p>网上搜集了一下资料，大致有两条道路可选：</p>
+<ul>
+<li>从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。</li>
+<li>下载现成镜像，比如<a href="https://en.opensuse.org/Portal:ARM/AArch64" target="_blank" rel="external">opensuse</a>,<a href="https://github.com/bamarni/pi64" target="_blank" rel="external">pi64</a>。两个我都试了，亲测arm64的opensuse是个大坑，各种卡。很顺畅，至少sysbench结果的确比32位快了10倍。</li></ul>
+        
+          <a class="article-more-a" href="/2017/07/01/pi64-upgrade/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">raspberry pi</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/开发笔记/" class="article-tag-list-link color5">开发笔记</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/07/01/pi64-upgrade/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
     <article id="post-jianshu-novel" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -209,7 +289,7 @@ var _hmt = _hmt || [];
 <li><strong><a href="http://kownse.coding.me/jianshurank.html" target="_blank" rel="external">如果是PC浏览器，点这个，速度更快</a></strong></li>
 <li><strong><a href="https://kownse.github.io/jianshurank.html">如果是微信，点这个，上面那个被鹅厂限制了</a></strong></li>
 </ul>
-<p>至于这里，只能用工具把html转markdown了。<br>我尽量<strong>每天更新</strong>!<br>以下是<strong>2017年6月19日</strong>爬取的结果：<br></p>
+<p>至于这里，只能用工具把html转markdown了。<br>我尽量<strong>每天更新</strong>!<br>以下是<strong>2017年6月17日</strong>爬取的结果：<br></p>
         
           <a class="article-more-a" href="/2017/06/14/jianshu-novel/#more">more >></a>
         
@@ -539,11 +619,11 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
             
             <div class="clearfix"></div>
