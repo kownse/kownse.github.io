@@ -4,13 +4,15 @@
 
     
   <url>
-    <loc>http://kownse.github.io/2017/07/01/pi64-upgrade/</loc>
-    <lastmod>2017-07-03T03:45:37.407Z</lastmod>
+    <loc>http://kownse.github.io/2017/06/14/jianshu-novel/</loc>
+    <lastmod>2017-07-03T06:11:45.398Z</lastmod>
     <data>
         <display>
-        <title>树莓派升级arm64 debian stretch小记</title>
-        <pubTime>2017-07-01T12:15:21.000Z</pubTime>
+        <title>简书短篇小说精粹</title>
+        <pubTime>2017-06-14T06:44:58.000Z</pubTime>
         
+        <tag>node.js</tag>
+         
         <tag>raspberry pi</tag>
          
         <tag>python</tag>
@@ -26,15 +28,13 @@
 
     
   <url>
-    <loc>http://kownse.github.io/2017/06/14/jianshu-novel/</loc>
-    <lastmod>2017-06-19T03:56:42.445Z</lastmod>
+    <loc>http://kownse.github.io/2017/07/01/pi64-upgrade/</loc>
+    <lastmod>2017-07-03T03:45:37.407Z</lastmod>
     <data>
         <display>
-        <title>简书短篇小说精粹</title>
-        <pubTime>2017-06-14T06:44:58.000Z</pubTime>
+        <title>树莓派升级arm64 debian stretch小记</title>
+        <pubTime>2017-07-01T12:15:21.000Z</pubTime>
         
-        <tag>node.js</tag>
-         
         <tag>raspberry pi</tag>
          
         <tag>python</tag>
