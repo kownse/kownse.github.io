@@ -177,6 +177,93 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-graphic-python-profile" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/03/graphic-python-profile/">树莓派慢——win环境下的python图形化性能分析工具链</a>
+    </h1>
+  
+
+        
+        <a href="/2017/07/03/graphic-python-profile/" class="archive-article-date">
+  	<time datetime="2017-07-03T08:32:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/2017/07/03/graphic-python-profile/brief.png" alt="logo"></p>
+<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>尽管网上已经很多python图形化性能分析的帖子，比如<a href="https://github.com/nvdv/vprof" target="_blank" rel="external">vprof</a>,<a href="https://github.com/csurfer/pyheat" target="_blank" rel="external">pyheat</a>等等。<br>但是亲测都不好用，原因两点：</p>
+<ol>
+<li>版本兼容问题导致的环境搭建困难。照着那些帖子做，做了发现报错，根本运行不了。尤其是在python2上开发的库。</li>
+<li>只能分析单个文件，好看不实用。比如<a href="https://github.com/csurfer/pyheat" target="_blank" rel="external">pyheat</a>。</li>
+</ol>
+<p>本文的作用是较少一种<strong>从0到1完整图形性能分析</strong>的方法。该方式基于以下工具：</p>
+<ul>
+<li>cProfile</li>
+<li>pstats</li>
+<li>Gprof2Do(dot)</li>
+<li>VS Code(powershell)</li></ul>
+        
+          <a class="article-more-a" href="/2017/07/03/graphic-python-profile/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">raspberry pi</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/python/" class="article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/07/03/graphic-python-profile/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
     <article id="post-pi64-upgrade" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -197,7 +284,8 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>在树莓派上做了<a href="http://www.jianshu.com/p/b844caf18140" target="_blank" rel="external">爬虫</a>，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。<br>同时，debian 9 stretch发布，也想试试新系统。</p>
+        <p><img src="/2017/07/01/pi64-upgrade/stretch.png" alt="logo"></p>
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>在树莓派上做了<a href="http://www.jianshu.com/p/b844caf18140" target="_blank" rel="external">爬虫</a>，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。<br>同时，debian 9 stretch发布，也想试试新系统。</p>
 <h2 id="资讯"><a href="#资讯" class="headerlink" title="资讯"></a>资讯</h2><p>网上搜集了一下资料，大致有两条道路可选：</p>
 <ul>
 <li>从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。</li>
@@ -245,6 +333,97 @@ var _hmt = _hmt || [];
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2017/07/01/pi64-upgrade/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
+    <article id="post-jianshu-author" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/20/jianshu-author/">简书“短篇小说”作者排名</a>
+    </h1>
+  
+
+        
+        <a href="/2017/06/20/jianshu-author/" class="archive-article-date">
+  	<time datetime="2017-06-20T08:44:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-20</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/2017/06/20/jianshu-author/author.png" alt="logo"></p>
+<h1 id="直接上数据"><a href="#直接上数据" class="headerlink" title="直接上数据"></a>直接上数据</h1><p>github的pages不支持iframe，只能点连接了，连接里的排行是实时的哦~</p>
+<ul>
+<li><strong><a href="http://kownse.coding.me/jianshuauthorstat.html" target="_blank" rel="external">如果是PC浏览器，点这个，速度更快</a></strong></li>
+<li><strong><a href="https://kownse.github.io/jianshuauthorstat.html">如果是微信，点这个，上面那个被鹅厂限制了</a></strong><br>至于这里，只能用工具把html转markdown了。作者排名变化比较慢，一周一更新吧。</li>
+</ul>
+<h1 id="关于分数"><a href="#关于分数" class="headerlink" title="关于分数"></a>关于分数</h1><p>在此的分数计算的是每位作者得分最高的三部作品的平均分数。这样做的考虑是：</p>
+<ul>
+<li>避免一些不好的作品拖累作者分数</li>
+<li>避免一篇优秀作品盖过别的失误</li>
+</ul>
+<h1 id="相关分析"><a href="#相关分析" class="headerlink" title="相关分析"></a>相关分析</h1><p>之前还做了个<a href="https://kownse.github.io/2017/06/14/jianshu-novel/">《兼顾时效和质量的简书短篇小说排序》</a><br></p>
+        
+          <a class="article-more-a" href="/2017/06/20/jianshu-author/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">node.js</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">raspberry pi</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/开发笔记/" class="article-tag-list-link color5">开发笔记</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/06/20/jianshu-author/">展开全文 >></a>
         </p>
       
 
