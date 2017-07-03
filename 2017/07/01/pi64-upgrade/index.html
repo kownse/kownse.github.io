@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://kownse.github.io">
   <title>树莓派升级arm64 debian stretch小记 | Kownse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="需求在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下： arm6">
+  <meta name="description" content="需求测试发布在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下：">
 <meta name="keywords" content="raspberry pi,python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派升级arm64 debian stretch小记">
 <meta property="og:url" content="http://kownse.github.io/2017/07/01/pi64-upgrade/index.html">
 <meta property="og:site_name" content="Kownse">
-<meta property="og:description" content="需求在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下： arm6">
-<meta property="og:updated_time" content="2017-07-03T02:45:56.972Z">
+<meta property="og:description" content="需求测试发布在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下：">
+<meta property="og:updated_time" content="2017-07-03T03:44:48.890Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派升级arm64 debian stretch小记">
-<meta name="twitter:description" content="需求在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下： arm6">
+<meta name="twitter:description" content="需求测试发布在树莓派上做了爬虫，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。同时，debian 9 stretch发布，也想试试新系统。 资讯网上搜集了一下资料，大致有两条道路可选：  从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。 下载现成镜像，比如opensuse,pi64。亲测如下：">
   
     <link rel="alternative" href="/atom.xml" title="Kownse" type="application/atom+xml">
   
@@ -197,7 +197,7 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>在树莓派上做了<a href="http://www.jianshu.com/p/b844caf18140" target="_blank" rel="external">爬虫</a>，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。<br>同时，debian 9 stretch发布，也想试试新系统。</p>
+        <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>测试发布<br>在树莓派上做了<a href="http://www.jianshu.com/p/b844caf18140" target="_blank" rel="external">爬虫</a>，爬取的内容越来越多，眼看32位mongodb的2G存储限制就要被突破了，于是希望能升级到64位系统。<br>同时，debian 9 stretch发布，也想试试新系统。</p>
 <h2 id="资讯"><a href="#资讯" class="headerlink" title="资讯"></a>资讯</h2><p>网上搜集了一下资料，大致有两条道路可选：</p>
 <ul>
 <li>从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。</li>
