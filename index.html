@@ -201,7 +201,9 @@ var _hmt = _hmt || [];
 <h2 id="资讯"><a href="#资讯" class="headerlink" title="资讯"></a>资讯</h2><p>网上搜集了一下资料，大致有两条道路可选：</p>
 <ul>
 <li>从ubantu交叉变异arm64的raspbian，然后再一部分一部分地替换32位程序。耗时最多。</li>
-<li>下载现成镜像，比如<a href="https://en.opensuse.org/Portal:ARM/AArch64" target="_blank" rel="external">opensuse</a>,<a href="https://github.com/bamarni/pi64" target="_blank" rel="external">pi64</a>。两个我都试了，亲测arm64的opensuse是个大坑，各种卡。很顺畅，至少sysbench结果的确比32位快了10倍。</li></ul>
+<li>下载现成镜像，比如<a href="https://en.opensuse.org/Portal:ARM/AArch64" target="_blank" rel="external">opensuse</a>,<a href="https://github.com/bamarni/pi64" target="_blank" rel="external">pi64</a>。亲测如下：<ul>
+<li>arm64的opensuse是个坑，各种卡。</li>
+<li>pi64很顺畅，至少sysbench结果的确比32位快了10倍。但是用默认源安装的软件有些缺失，比如mongodb就木有mongodump和mongorestore……</li></ul></li></ul>
         
           <a class="article-more-a" href="/2017/07/01/pi64-upgrade/#more">more >></a>
         
