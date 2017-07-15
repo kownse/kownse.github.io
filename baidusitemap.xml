@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://kownse.github.io/2017/06/20/jianshu-author/</loc>
+    <lastmod>2017-07-15T07:26:38.253Z</lastmod>
+    <data>
+        <display>
+        <title>简书“短篇小说”作者排名</title>
+        <pubTime>2017-06-20T08:44:51.000Z</pubTime>
+        
+        <tag>node.js</tag>
+         
+        <tag>raspberry pi</tag>
+         
+        <tag>python</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发笔记" url="http://kownse.github.io/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://kownse.github.io/2017/06/14/jianshu-novel/</loc>
     <lastmod>2017-07-04T05:26:52.420Z</lastmod>
     <data>
@@ -35,30 +59,6 @@
         <title>树莓派升级arm64 debian stretch小记</title>
         <pubTime>2017-07-01T12:15:21.000Z</pubTime>
         
-        <tag>raspberry pi</tag>
-         
-        <tag>python</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发笔记" url="http://kownse.github.io/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://kownse.github.io/2017/06/20/jianshu-author/</loc>
-    <lastmod>2017-07-03T09:02:03.459Z</lastmod>
-    <data>
-        <display>
-        <title>简书“短篇小说”作者排名</title>
-        <pubTime>2017-06-20T08:44:51.000Z</pubTime>
-        
-        <tag>node.js</tag>
-         
         <tag>raspberry pi</tag>
          
         <tag>python</tag>
