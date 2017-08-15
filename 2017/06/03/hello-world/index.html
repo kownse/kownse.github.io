@@ -6,21 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://kownse.github.io">
-  <title>终于找到了写博客的正确姿势 | Kownse</title>
+  <title>The Correct Posture to Write Blogs | Kownse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
-<meta name="keywords" content="随笔">
+  <meta name="description" content="DetoursI’ve tried Baidu cloud + nodejs to build a personal website, And even “study out” of some experience, such as:   The performance limited card computer Raspberry Pi is very suitable to do perfo">
+<meta name="keywords" content="essay">
 <meta property="og:type" content="article">
-<meta property="og:title" content="终于找到了写博客的正确姿势">
+<meta property="og:title" content="The Correct Posture to Write Blogs">
 <meta property="og:url" content="http://kownse.github.io/2017/06/03/hello-world/index.html">
 <meta property="og:site_name" content="Kownse">
-<meta property="og:description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
+<meta property="og:description" content="DetoursI’ve tried Baidu cloud + nodejs to build a personal website, And even “study out” of some experience, such as:   The performance limited card computer Raspberry Pi is very suitable to do perfo">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://kownse.github.io/2017/06/03/hello-world/pi.jpg">
-<meta property="og:image" content="http://kownse.github.io/2017/06/03/hello-world/fashao.jpg">
-<meta property="og:updated_time" content="2017-07-02T01:04:41.789Z">
+<meta property="og:updated_time" content="2017-08-15T04:28:48.090Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="终于找到了写博客的正确姿势">
-<meta name="twitter:description" content="走了多少弯路之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：   树莓派这个性能非常有限的卡片电脑，非常适合做性能测试。因为稍微一点过分消耗就会卡顿。">
+<meta name="twitter:title" content="The Correct Posture to Write Blogs">
+<meta name="twitter:description" content="DetoursI’ve tried Baidu cloud + nodejs to build a personal website, And even “study out” of some experience, such as:   The performance limited card computer Raspberry Pi is very suitable to do perfo">
 <meta name="twitter:image" content="http://kownse.github.io/2017/06/03/hello-world/pi.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Kownse" type="application/atom+xml">
@@ -191,7 +191,7 @@ var _hmt = _hmt || [];
         
   
     <h1 class="article-title" itemprop="name">
-      终于找到了写博客的正确姿势
+      The Correct Posture to Write Blogs
     </h1>
   
 
@@ -205,46 +205,40 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="/2017/06/03/hello-world/pi.jpg" alt="logo"></p>
-<h1 id="走了多少弯路"><a href="#走了多少弯路" class="headerlink" title="走了多少弯路"></a>走了多少弯路</h1><p>之前我尝试了百度云,nodejs,lighthttpd等等许多构建个人网站的方式。甚至“研究”出了一些心得，比如：</p>
+<h1 id="Detours"><a href="#Detours" class="headerlink" title="Detours"></a>Detours</h1><p>I’ve tried Baidu cloud + nodejs to build a <a href="http://kownse.natapp1.cc/" target="_blank" rel="external">personal website</a>, And even “study out” of some experience, such as:</p>
 <blockquote>
 <ul>
-<li>树莓派这个<strong>性能</strong>非常有限的卡片电脑，非常适合做性能测试。因为稍微一点<strong>过分消耗</strong>就会卡顿。<a id="more"></a></li>
-<li>树莓派上，<strong>静态网页的访问速度是nodejs动态网页的十倍</strong>。所以尽量生成静态html。为此还封装了一套接口。</li>
-<li>静态内容，比如h5游戏，放在百度云上，可以利用其自动的CDN加快访问速度，同时减轻Natapp的流量消耗。</li>
-<li>从头用html+css写了一套网站，虽然还是用到了模板库(pug)。但是今天发现<strong>markdown才是王道</strong>。</li>
+<li>The performance limited card computer <strong>Raspberry Pi</strong> is very suitable to do performance testing as any arbitrary waste of performance would make the whole system stubborn.<a id="more"></a></li>
+<li>Static web pages are accessed <strong>ten times faster</strong> than the nodejs dynamic page.So try every way to generate static html than dynamic ones, I’ve encapsulated a set of interfaces for doing this.</li>
 </ul>
 </blockquote>
-<p>现在发现，其实这样做更简单：</p>
+<h1 id="The-Correct-Posture"><a href="#The-Correct-Posture" class="headerlink" title="The Correct Posture"></a>The Correct Posture</h1><p>Now I found the better way:</p>
 <blockquote>
 <ul>
-<li>用hexo生成静态网页，然后发布到github上。github不但在国外访问稳定，到了国内一样比较稳定。</li>
-<li><del>h5游戏也放在github上。</del>事实证明，实验后发现github.io似乎有跨域访问限制。尽管游戏服务器上已经添加了各种Access-Control-Allow-*字段，但是服务器还是不能收到消息。换回BAE立马就好了。</li>
-<li>树莓派上的服务器只需要做成REST API服务就行了。</li>
-<li>h5游戏里应该用REST API登陆。</li>
+<li>After generating the static pages, send them to Github Pages where the perfect place to publish static htmls which is faster and saver.</li>
+<li>H5 games are also static resources and can be deal in the same way as static htmls goes.</li>
+<li>The web server I’ve built need only deal with the REST API for the H5 games. </li>
 </ul>
 </blockquote>
 <hr>
-<h1 id="行为方式总结"><a href="#行为方式总结" class="headerlink" title="行为方式总结"></a>行为方式总结</h1><p>总结一下过去1个多月尝试的行为方式，其实就是边干边学。因为没有经验，也没有人可以传授经验，一切都是自己摸索。而我自己行动力又比较强，于是常常陷入<strong>局部最优解</strong>。通俗的说，就是井底之蛙。</p>
+<h1 id="Progress-Summary"><a href="#Progress-Summary" class="headerlink" title="Progress Summary"></a>Progress Summary</h1><p>I need to summarize how I get through things with limited information and more trouble.I am a practical person who can not wait to action before everything was learned.As I did all these by my own, no one tell me a better way, it is ve ry difficult to avoid extra work.But if I dig too hard I may be trapped into the local optimal solution. </p>
 <div id="flowchart-0" class="flow-chart"></div>
 
-
-<p>希望上面那种工作方式，能够随着经验的不断累计，变成<strong>先思考，再行动</strong>：</p>
-<p><div id="flowchart-1" class="flow-chart"></div><br>上面的图比前一个少了许多<strong>原地打转</strong>和<strong>返工</strong>。</p>
-<hr>
-<h1 id="公司里加班多了就这样"><a href="#公司里加班多了就这样" class="headerlink" title="公司里加班多了就这样"></a>公司里加班多了就这样</h1><p>其实在公司里的工作，由于不断重复反复练习，已经不需要太多思考了。<br>所以现在性价比最高的还是在公司的工作。但是强度太大，搞得我经常生病。<br>我不能放弃别的路子，那不只是放弃机会，还是放弃希望。</p>
-<p>不然的话，就是经常生病，经常发烧。<br><img src="/2017/06/03/hello-world/fashao.jpg" alt="logo"><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 构思
-op1=>operation: 学习资料
-op2=>operation: 动手开干
-op3=>operation: 补充资料
-cond=>condition: 感觉能重构?
+<p>I hope that as my experience and grows I can turn the progress into <strong>Think First</strong> and reduce the extra efforts to pay: </p>
+<p><div id="flowchart-1" class="flow-chart"></div><br>There is less <strong>rework</strong> in the upper figure than the previous one.</p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Conceive
+op1=>operation: Learn something
+op2=>operation: Act
+op3=>operation: Learn more
+cond=>condition: Reconstruction?
 e=>end
 
 st->op1->op2->cond
 cond(yes, right)->op3(right)->op2
-cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: 构思
-op1=>operation: 思考
-op2=>operation: 学习充电
-op3=>operation: 动手干活
+cond(no)->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: Conceive
+op1=>operation: Think
+op2=>operation: Learn
+op3=>operation: Act
 e=>end
 
 st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script></p>
@@ -292,7 +286,7 @@ st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -304,7 +298,7 @@ st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/随笔/" class="article-tag-list-link color3">随笔</a>
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -498,14 +492,6 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">raspberry pi</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">node.js</a>
               </li>
              
@@ -514,11 +500,23 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">raspberry pi</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">BAE</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">essay</a>
               </li>
             
             <div class="clearfix"></div>
