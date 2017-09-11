@@ -15,9 +15,8 @@
 <meta property="og:url" content="http://kownse.github.io/2017/06/03/hello-world/index.html">
 <meta property="og:site_name" content="Kownse">
 <meta property="og:description" content="How many detours did I take?A few days ago, I tried to use Raspberry Pi + nodejs to build a personal website, even a few things have been “studied”, for example:   Raspberry Pi is a very limited card">
-<meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://kownse.github.io/2017/06/03/hello-world/pi.jpg">
-<meta property="og:updated_time" content="2017-09-10T13:52:18.937Z">
+<meta property="og:updated_time" content="2017-09-11T09:21:13.874Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Right Position to Write a Blog">
 <meta name="twitter:description" content="How many detours did I take?A few days ago, I tried to use Raspberry Pi + nodejs to build a personal website, even a few things have been “studied”, for example:   Raspberry Pi is a very limited card">
@@ -228,21 +227,20 @@ var _hmt = _hmt || [];
 <li>Static web pages are accessed <strong>ten times faster</strong> than the nodejs dynamic page.So try every thing to generate static html rather than dynamic ones. I’ve encapsulated a set of interfaces for doing this.</li>
 </ul>
 </blockquote>
-<h1 id="The-Correct-Posture"><a href="#The-Correct-Posture" class="headerlink" title="The Correct Posture"></a>The Correct Posture</h1><p>Now I found the better way:</p>
+<h1 id="The-Correct-Position"><a href="#The-Correct-Position" class="headerlink" title="The Correct Position"></a>The Correct Position</h1><p>Now I found a better way:</p>
 <blockquote>
 <ul>
-<li>After generating the static pages, send them to Github Pages where the perfect place to publish static htmls which is faster and saver.</li>
-<li>H5 games are also static resources and can be deal in the same way as static htmls goes.</li>
-<li>The web server I’ve built need only deal with the REST API for the H5 games. </li>
+<li>After generating the static pages, upload them to the Github Pages, which is a perfect place to publish static pages, which not only does not consume any bandwidth but also safe.</li>
+<li>H5 games are also static resources and can be deal in the same way.</li>
+<li>I only need to deal with the issue of the game communication with the server on the raspberry pi. </li>
 </ul>
 </blockquote>
 <hr>
-<h1 id="Progress-Summary"><a href="#Progress-Summary" class="headerlink" title="Progress Summary"></a>Progress Summary</h1><p>I need to summarize how I get through things with limited information and more troubles.I am a practical person who can not wait to act before everything was learned well.Actually I learn things by doing things.As I did these all by my own, no one tell me a better way, it is very difficult to avoid extra works.But if I dig too hard I may be trapped into the local optimal solution. So I need <strong>rework</strong> to make thing nicer, and this is called <strong>Refactoring</strong>.I love refactoring in work because it forced me to learn even more skills.It is not only refactoring of work, but also refactoring of my skills.<br>The figure below shows the progress:</p>
+<h1 id="A-Summary-of-My-Behavior"><a href="#A-Summary-of-My-Behavior" class="headerlink" title="A Summary of My Behavior"></a>A Summary of My Behavior</h1><p>To summarize what I’ve done in the past month, I have done all kinds of ways to do it, and I’m actually studying it by doing it. Because I have no experience, no one gives me any advice, and everything is on my own. The lack of knowledge and the mental state of mind caused me to do a lot of extra work.When I learn some new knowledge and go back to what I have done, I want to make all kinds of changes to achieve better results, whcich creates a lot of <strong>reconstruction</strong>.I like reconstruction, not only because it can make the result better, but also because it makes me exercise my various skills.In short, it’s not just code, it’s my skill.<br>The following flow chart shows the process.</p>
 <div id="flowchart-0" class="flow-chart"></div>
 
-<p>I hope that as my experience and grows I can turn the progress into <strong>Think First</strong> and reduce the extra efforts to pay: </p>
-<p><div id="flowchart-1" class="flow-chart"></div><br>There is less <strong>refacturing</strong> in the upper figure than the previous one,but this is only a ideal situation.I can always find some part needs to be refactured.</p>
-<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Conceive
+<p>I hope that with the richness and skill of my knowledge, my workflow can gradually reduce the proportion of learning and reconstruction, and thus achieve a more efficient leve.Or in a different way,let me get out of the details and think about these problems at a higher leve.</p>
+<p><div id="flowchart-1" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Conceive
 op1=>operation: Learn something
 op2=>operation: Act
 op3=>operation: Reconstruction
@@ -521,10 +519,6 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">BAE</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
              
               <li class="article-tag-list-item">
