@@ -139,5 +139,31 @@
         </display>
     </data>
     </url>
+	
+	<url>
+    <loc>http://kownse.github.io/sydneyhouse.html</loc>
+    
+    <lastmod>2018-02-03T00:38:59.167Z</lastmod>
+	<data>
+        <display>
+        <title>Sydney House Price Analysis</title>
+        <pubTime>2017-07-03T08:32:15.000Z</pubTime>
+        <tag>data analysis</tag>
+        <tag>python</tag>
+    </data>
+    
+  </url>
+  
+  <url>
+    <loc>http://kownse.github.io/sydneyhouse_bed.html</loc>
+    <lastmod>2018-02-03T00:38:59.167Z</lastmod>
+    <data>
+        <display>
+        <title>Sydney House Price Analysis</title>
+        <pubTime>2017-07-03T08:32:15.000Z</pubTime>
+        <tag>data analysis</tag>
+        <tag>python</tag>
+    </data>
+  </url>
 
 </urlset>
